@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background: url(img/1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.testimonials{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-direct{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.test-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.icon-star{
+    color: #ffa500;
+}
+
+.photo{
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.author{
+    font-size: 18px;
+}
+
+.test-description{
+    text-align: center;
+}
+
+.photo{
+    margin-bottom: 10px;
+}
+
+.author,
+.stars,
+.test-description{
+    margin-bottom: 15px;
+}
+
